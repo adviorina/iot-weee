@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Project IOT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/Weee (1).png" alt="Weee"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#package">PACKAGE</a></li>
+                    <li><a href="index.html#gallery">GALLERY</a></li>
+                    <li><a href="https://wa.me/6288888888888">CONTACT US</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          PRICELIST
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" id="item" href="package1.html">Package 1</a></li>
+                          <li><a class="dropdown-item" id="item" href="package2.html">Package 2</a></li>
+                          <li><a class="dropdown-item" id="item" href="package3.html">Package 3</a></li>
+                        </ul>
+                      </li>
+                    <li><a href="#about">ABOUT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="sub-header-title">Pricelist</h1>
+    </section>
+
+    <!--Pricelist Package 2-->
+    <section class="package" id="package">
+        <h1>Package 3</h1>
+        <p>Our Featured Packages</p>
+
+        <div class="row">
+            <div class="package-col">
+                <h3>Destination A</h3>
+                <p>IDR: Rp22.000.000, 00 <br>
+                    USD: $1360
+                </p>
+            </div>
+            <div class="package-col">
+                <h3>Destination B</h3>
+                <p>IDR: Rp20.000.000, 00 <br>
+                    USD: $1235
+                </p>
+            </div>
+            <div class="package-col">
+                <h3>Destination C</h3>
+                <p>IDR: Rp18.000.000, 00 <br>
+                    USD: $1110
+                </p>
+            </div>
+        </div>
+    </section>
+
+   
+    <!--Footer-->
+    <section class="footer" id="about">
+        <h4>About Us</h4>
+        <p>At Weee, our mission is to make your travel dreams a reality. We believe that travel is more than just visiting new places—
+            <br>it's about creating experiences that enrich your life, broaden your horizons, and leave you with lasting memories.</p>
+        <div class="icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <p><i class="fa-regular fa-copyright"></i> 2024 | Designed by: Adinda Maria | All Rights Reserved </p>
+    </section>
+
+    <script src="https://kit.fontawesome.com/cddee8fa0f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+</html>
